@@ -26,7 +26,7 @@ function App() {
 /* ================= PROPS DRILLING ================= */
 
 function PropsDrillingApp() {
-  return <Parent name="Puja" />;
+  return <Parent name="Prajyakta" />;
 }
 
 function Parent({ name }) {
@@ -43,7 +43,7 @@ function Child({ name }) {
 function CompositionApp() {
   return (
     <Box>
-      <p>Hello Puja</p>
+      <p>Hello Prajyakta</p>
     </Box>
   );
 }
