@@ -12,11 +12,11 @@ function App() {
   });
 
   if (isLoading) return <h2>Loading...</h2>;
-  if (error) return <h2>Error occurred</h2>;
+  if (error) return <h2>Error fetching data</h2>;
 
   return (
     <div style={{ padding: "20px" }}>
-      <h1>Day 07 – React Query</h1>
+      <h1>Day 07 – React Query Demo</h1>
       {data.map((user) => (
         <p key={user.id}>{user.name}</p>
       ))}
