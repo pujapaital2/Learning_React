@@ -1,6 +1,0 @@
-{
-  "students": [
-    { "id": 1, "name": "Puja", "course": "MCA" },
-    { "id": 2, "name": "Amit", "course": "BCA" }
-  ]
-}
