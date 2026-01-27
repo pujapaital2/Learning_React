@@ -1,0 +1,10 @@
+const User = (props) => {
+  return (
+    <div>
+      <h3>Name: {props.name}</h3>
+      <p>Age: {props.age}</p>
+    </div>
+  );
+};
+
+export default User;
